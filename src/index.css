@@ -11,3 +11,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  margin: 1.5rem;
+  box-shadow: 0 0 7px 0 #000000;
+  border-radius: 5px;
+  border: 1px solid green;
+  width: 300px;
+  list-style: none;
+  background-color: rgba(1, 15, 1, 0.699);
+  color: white;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subText {
+  color:  white;
+  padding-top: 15px;
+}
+
+.liked {
+  margin: 1rem;
+  box-shadow: 0 0 7px 0 #ddd;
+  border: none;
+  border: 1px solid #ccc;
+  width: 300px;
+  list-style: none;
+}
+
+.card:hover{
+  margin: 1rem;
+  box-shadow: 0 0 10px 0 rgb(151, 151, 151);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  list-style: none;
+}
+
+.card .details {
+  padding: 0.5rem;
+}
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  font-size: 100px
+}
+
+.button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: large;
+  padding-top: 5%;
+}
+
+.button:hover{
+  background: grey;
+  border-radius: 100px;
+}
+
+.navbar {
+  padding: 1%;
+  font-size: large;
+  color: green;
+  text-decoration: none;
+}
+
+.paragraph {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  padding: 2%;
+  box-shadow: 0 0 7px 0 #000000;
+  border-radius: 5px;
+  border: 1px solid green;
+  background-color: rgba(5, 70, 5, 0.699);
+  color: white;
+  text-align: center;
+}
+.image {
+  height: 200px;
+  display: block;
+  margin-left: 15%;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.form {
+  margin: 1.5rem;
+  box-shadow: 0 0 7px 0 #000000;
+  border-radius: 5px;
+  border: 1px solid green;
+  width: 500px;
+  list-style: none;
+  background-color: rgba(5, 70, 5, 0.699);
+  color: white;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
